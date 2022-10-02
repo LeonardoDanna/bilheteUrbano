@@ -4,6 +4,10 @@
     font-family: 'Montserrat';
 }
 
+body {
+    background-color: #dfdfdf;
+}
+
 .titulo h1 {
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -63,7 +67,8 @@ main {
     display: flex;
     padding: 100px;
     justify-content: center;
-    background-color: #F0EDEE;
+    background-image: url("abc.png");
+    background-repeat: no-repeat;
 }
 
 footer {
