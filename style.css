@@ -5,15 +5,15 @@
 }
 
 .titulo h1 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    background-color: rgb(131, 185, 185);
+    background-color: #07393C;
     padding: 35px;
 }
 .nav {
-    background-color: rgb(90, 90, 90);
+    background-color: #2C666E;
     color: aliceblue;
     height: 70px;
     text-align: center;
@@ -31,17 +31,21 @@
 
 .sobre {
     border-radius: 8px;
-    background-color: rgb(131, 185, 185);
-    border: 2px solid rgb(159, 207, 207);
+    background-color: #2C666E;
+    border: 2px solid #2C666E;
     width: 30%;
     text-align: center;
     padding: 60px;
     margin: 50px;
 }
 
+.sobre p, h2{
+    color:rgb(255, 255, 255);
+}
+
 button{
     color: white;
-    background-color: #6B91B8;
+    background-color: #69bed3;
     border: 0;
     padding: 10px;
     margin: 10px;
@@ -59,12 +63,13 @@ main {
     display: flex;
     padding: 100px;
     justify-content: center;
+    background-color: #F0EDEE;
 }
 
 footer {
     display: fixed;
     color: aliceblue;
-    background-color: rgb(90, 90, 90);
+    background-color:#0A090C;
     padding: 20px;
     text-align: center;
 }
