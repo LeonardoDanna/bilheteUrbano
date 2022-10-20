@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #dfdfdf;
+    background-color: #0A090C;
 }
 
 .titulo h1 {
@@ -16,6 +16,10 @@ body {
     background-color: #07393C;
     padding: 35px;
 }
+.sobre h1 {
+    color: aliceblue;
+}
+
 .nav {
     background-color: #2C666E;
     color: aliceblue;
@@ -27,10 +31,6 @@ body {
     color: aliceblue;
     text-decoration: none;
     padding: 20px;
-}
-
-.nav a:hover{
-    color: aqua;
 }
 
 .sobre {
@@ -61,11 +61,12 @@ button:hover {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 10px;
+    transition: 0.4s;
 }
 
 main {
     display: flex;
-    padding: 100px;
+    padding: 100px 10px;
     justify-content: center;
     background-image: url("abc.png");
     background-repeat: no-repeat;
@@ -84,4 +85,10 @@ a {
 }
 a:hover {
     color: black;
+    transition: 0.4s;
+}
+input, textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border-color: aquamarine;
 }
