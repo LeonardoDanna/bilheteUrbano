@@ -43,7 +43,7 @@ body {
     margin: 50px;
 }
 
-.sobre p, h2{
+.sobre p, h2,text{
     color:rgb(255, 255, 255);
 }
 
@@ -77,4 +77,11 @@ footer {
     background-color:#0A090C;
     padding: 20px;
     text-align: center;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: black;
 }
