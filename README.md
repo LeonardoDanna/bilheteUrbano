@@ -1,6 +1,6 @@
 <h1>Bilhete Urbano</h1>
 <h2>Trabalho Universitário - A equipe está desenvolvendo um site para ajudar a administrar o sistema de transporte público de Campinas.</h2>
-<p>Tecnologias utilizadas no projeto: HTML, CSS, JavaScript - brevemente NodeJS e OracleDB</p>
+<p>Tecnologias utilizadas no projeto: HTML, CSS, JavaScript - brevemente NodeJS e OracleDB.</p>
 
 <h3>Primeira página.</h3>
 
