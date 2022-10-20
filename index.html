@@ -8,6 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>Bilhete urbano</title>
 
+    <script src="saldo.js"></script>
+
 </head>
 <body>
     <div class="titulo">
@@ -22,18 +24,19 @@
 
     <main>
         <div class="sobre">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur inventore aperiam. A inventore officiis ex maiores nemo consequatur, cumque fugiat eligendi, qui accusamus aliquid accusantium. Ipsam impedit nisi ratione!</p>
+            <h1>Olá! novo por aqui?</h1>
+            <br><p>Por acaso você já possui um código único para acessar informações importantes pessoais como por exemplo saldo e extrato? Se não, gere agora o seu!</p>
             <br>
-            <button>GERAR BILHETE</a>
+            <button onclick="geraBilhete()">GERAR BILHETE</button>
         </div>
         <div class="sobre">
             <h2>BILHETE UNICO</h2>
-            <p>Já possui o cartão? </p>
+            <br><p>Já possui o cartão? </p>
             <form action="">
                 <br>
-                <input type="text" name="" id="numero-cartao">
+                <input type="text" name="" id="numero-cartao" placeholder="xxx-xxx-xxx">
                 <br><br>
-                <button type="submit"> <a href="tela2.html">Próximo</a></button>
+                <button type="submit" formaction="tela2.html">Próximo</button>
             </form>
         </div>
     </main>
