@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Bilhete urbano - escolha de ticket</title>
+
+    <script src="saldo.js"></script>
+
+</head>
+<body>
+    <div class="titulo">
+        <h1>BILHETE URBANO DE CAMPINAS</h1>
+    </div>
+
+    <div class="nav">
+        <!-- <a href="index.html"> <strong>USUÁRIO</strong></a>
+        <a href="gerarbilhete.html"> <strong>USAR BILHETE</strong></a>
+        <a href="saldo.html"> <strong>SALDO</strong></a> -->
+        <br><p>Compra / Recarga</p>
+    </div>
+
+    <main>
+        <div class="sobre">
+            <h2>BILHETE UNICO</h2><br><br>
+            <p>Te dará direito de utilizar o bilhete para transporte apenas uma vez. </p>
+            <!-- Deverá aparecer mensagem ao usuário explicando o modo de utilização, o valor a ser pago e a confirmação para o aceite da compra. </p><br> -->
+            <br><br>
+            <p><strong>R$</strong> 6,00.</p> <br>
+                <button onclick="add6()">Adicionar ao carrinho</button>
+
+        </div>
+        <div class="sobre">
+            <h2>BILHETE DUPLO</h2><br><br>
+            <p>Te dará direito de utilizar o bilhete para transporte duas vezes. </p>
+            <!-- Deverá  aparecer mensagem ao usuário explicando o modo de utilização, o valor a ser pago e a confirmação para o aceite da compra. </p> <br> -->
+            <br><br>
+            <p><strong>R$</strong> 10,00.</p> <br>
+                <button onclick="add10()">Adicionar ao carrinho</button>
+        </div>
+        <div class="sobre">
+            <h3>BILHETE SEMANAL</h3><br><br>
+            <p>Te dará direito de utilizar o transporte por um período de 7 dias. </p>
+             <!-- Deverá aparecer  mensagem  ao  usuário  explicando  o  modo  de  utilização,  o  valor  a  ser  pago  e  a confirmação para o aceite da compra. </p><br> -->
+             <br><br>
+             <p><strong>R$</strong> 25,00.</p><br>
+                <button onclick="add25()">Adicionar ao carrinho</button>
+        </div>
+        <div class="sobre">
+            <h2>BILHETE MENSAL</h2><br><br>
+            <p>Te dará direito de utilizar o transporte por um período de 30 dias. </p>
+            <!-- Deverá aparecer  mensagem  ao  usuário  explicando  o  modo  de  utilização,  o  valor  a  ser  pago  e  a confirmação para o aceite da compra.</p><br> -->
+            <br><br>
+            <p><strong>R$</strong> 80,00.</p> <br>
+                <button onclick="add80()">Adicionar ao carrinho</button>
+        </div>
+            <h4 id="saldo">Saldo: R$0.0</h4>
+    </main>
+    <div class="batata">
+        <form action="">
+            <button type="submit" formaction="pagPagamento.html">Comprar</button>
+        </form>
+    </div>
+        
+
+    <footer>
+            <h3>Entre em contato:</h3>
+            <p>(19) 98888-8888 </p>
+            <p>(19) 97777-7777 </p> <br>
+
+            <h3>Métodos de pagamento</h3>
+            <p>Pix, crédito e débito.</p> <br>
+        </div>
+    </footer>
+</body>
+</html>

@@ -25,18 +25,19 @@
     <main>
         <div class="sobre">
             <h1>Olá! novo por aqui?</h1>
-            <br><p>Por acaso você já possui um código único para acessar informações importantes pessoais como por exemplo saldo e extrato? Se não, gere agora o seu!</p>
+            <br><p>Por acaso você já possui um código único para acessar informações pessoais importantes como por exemplo saldo e extrato? Se não, gere agora o seu!</p>
             <br>
-            <button onclick="geraBilhete()">GERAR BILHETE</button>
+            <button id="submit" onclick="geraBilhete()">GERAR BILHETE</button>
         </div>
         <div class="sobre">
-            <h2>BILHETE UNICO</h2>
-            <br><p>Já possui o cartão? </p>
+            <h2>Já possui um bilhete?</h2>
+            <br><p>Insira a baixo </p>
             <form action="">
                 <br>
                 <input type="text" name="" id="numero-cartao" placeholder="xxx-xxx-xxx">
                 <br><br>
-                <button type="submit" formaction="tela2.html">Próximo</button>
+                <button type="submit" formaction="pagCompras.html">Compra / Recarga</button>
+                <button type="submit" formaction="pagUso.html">Relatório de uso</button>
             </form>
         </div>
     </main>
@@ -51,4 +52,24 @@
         </div>
     </footer>
 </body>
+
+<!-- <script>
+
+    const submitTerm = document.getElementById("submit");
+  
+    function checkForm() {
+
+        submitTerm.setAttribute("onclick", "gerarBilhete()");
+
+    }
+  
+    submitTerm.addEventListener("click", function(){
+      if(terms.checked == false){
+        alert("POR FAVOR, INDIQUE QUE ACEITA AS REGRAS DE UTILIZAÇÃO");
+        terms.focus();
+      }
+    });
+</script> -->
+
+
 </html>
